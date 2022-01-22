@@ -1,21 +1,21 @@
 var stilla = {
-    stilla0_gui: "#0D0D0D", // background
-    stilla1_gui: "#121414", // normal black
-    stilla2_gui: "#1A1C1C", // nord2 in palette ??
-    stilla3_gui: "#4C566A", // as below
-    stilla3_gui_bright: "#8C8C8C", // out of palette
-    stilla4_gui: "#F2F2F2", // foreground
-    stilla5_gui: "#FAFAFA", // normal white
-    stilla6_gui: "#FAF5EF", // alt white
-    stilla7_gui: "#8FBCBB", // alt cyan
-    stilla8_gui: "#88B6D0", // cyan
-    stilla9_gui: "#ADB2BA", // function signatures and things like this
-    stilla10_gui: "#5E81AC", // nord10 in palette ??
-    stilla11_gui: "#BA8082", // red
-    stilla12_gui: "#d99962", // yellow
-    stilla13_gui: "#E9B872", // yellow2
-    stilla14_gui: "#A19C9A", // color of strings, mostly
-    stilla15_gui: "#CD96B3", // magenta
+    color0: "#0D0D0D", // background
+    color1: "#121414", // normal black
+    color2: "#1A1C1C", // nord2 in palette ??
+    color3: "#4C566A", // as below
+    color3_bright: "#8C8C8C", // out of palette
+    color4: "#F2F2F2", // foreground
+    color5: "#FAFAFA", // normal white
+    color6: "#FAF5EF", // alt white
+    color7: "#8FBCBB", // alt cyan
+    color8: "#88B6D0", // cyan
+    color9: "#ADB2BA", // function signatures and things like this
+    color10: "#5E81AC", // nord10 in palette ??
+    color11: "#BA8082", // red
+    color12: "#d99962", // yellow
+    color13: "#E9B872", // yellow2
+    color14: "#A19C9A", // color of strings, mostly
+    color15: "#CD96B3", // magenta
     none: "NONE",
 };
 
