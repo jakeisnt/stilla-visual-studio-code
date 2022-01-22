@@ -6,7 +6,7 @@ var stillaTheme = require("./colors.js");
 var stilla = makeTheme("stilla", stillaTheme);
 
 function writeJSON(path, obj) {
-    fs.writeFile(path, JSON.stringify(obj, null, 2), (err) => {
+    fs.writeFile(path, JSON.stringify(obj, null, 2), function(err) {
         if (err) {
             throw err;
         }
