@@ -18,7 +18,7 @@ function theme(name, {
     color15,
 }) {
     return {
-        "name": "stilla",
+        "name": name,
         "type": "dark",
         "semanticHighlighting": true,
         "colors": {
