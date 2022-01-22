@@ -1,4 +1,4 @@
-var stilla = {
+var stilla_dark = {
     color0: "#0D0D0D", // background
     color1: "#121414", // normal black
     color2: "#1A1C1C", // nord2 in palette ??
@@ -16,7 +16,9 @@ var stilla = {
     color13: "#E9B872", // yellow2
     color14: "#A19C9A", // color of strings, mostly
     color15: "#CD96B3", // magenta
-    none: "NONE",
 };
 
-module.exports = stilla;
+var stilla_light = {
+};
+
+module.exports = { dark: stilla_dark, light: stilla_light };
