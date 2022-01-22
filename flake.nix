@@ -12,6 +12,9 @@
 
       inherit (lib) attrValues;
       pkgs = import nixpkgs {
+        config = {
+            allowUnfree = true;
+        };
         inherit system;
         overlays = [ ];
       };
@@ -20,6 +23,7 @@
     in rec {
       devShell.${system} = with pkgs; mkShell {
         buildInputs = [
+          vscode # for testing!
           nodejs
           nodePackages.typescript-language-server
           nodePackages.eslint
