@@ -1,4 +1,4 @@
-function theme(name, {
+module.exports = function theme(name, {
     color0,
     color1,
     color2,
