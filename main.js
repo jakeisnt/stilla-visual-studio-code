@@ -3,7 +3,7 @@ var fs = require("fs");
 var makeTheme = require("./theme.js");
 var stillaTheme = require("./colors.js");
 
-var stilla = makeTheme("stilla", stillaTheme);
+var stilla = makeTheme("stilla", stillaTheme.dark, stillaTheme.light);
 
 function writeJSON(path, obj) {
     fs.writeFile(path, JSON.stringify(obj, null, 2), function(err) {

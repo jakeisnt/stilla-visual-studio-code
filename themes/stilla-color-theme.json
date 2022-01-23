@@ -38,7 +38,7 @@
     "debugToolBar.background": "#121414",
     "descriptionForeground": "#d8dee9e6",
     "diffEditor.insertedTextBackground": "#81a1c133",
-    "diffEditor.removedTextBackground": "#bf616a4d",
+    "diffEditor.removedTextBackground": "#bf616acc",
     "dropdown.background": "#121414",
     "dropdown.border": "#121414",
     "dropdown.foreground": "#F2F2F2",
@@ -77,7 +77,7 @@
     "editorError.border": "#bf616a00",
     "editorWarning.foreground": "#E9B872",
     "editorWarning.border": "#ebcb8b00",
-    "editorBracketMatch.background": "#2e344000",
+    "editorBracketMatch.background": "#0D0D0D",
     "editorBracketMatch.border": "#88B6D0",
     "editorBracketHighlight.foreground1": "#8FBCBB",
     "editorBracketHighlight.foreground2": "#88B6D0",
@@ -89,7 +89,7 @@
     "editorCodeLens.foreground": "#4C566A",
     "editorGroup.background": "#0D0D0D",
     "editorGroup.border": "#3b425201",
-    "editorGroup.dropBackground": "#3b425299",
+    "editorGroup.dropBackground": "#434c5eb3",
     "editorGroupHeader.border": "#121414",
     "editorGroupHeader.noTabsBackground": "#0D0D0D",
     "editorGroupHeader.tabsBackground": "#0D0D0D",
@@ -298,7 +298,7 @@
     "textSeparator.foreground": "#FAF5EF",
     "titleBar.activeBackground": "#0D0D0D",
     "titleBar.activeForeground": "#F2F2F2",
-    "titleBar.border": "#2e344000",
+    "titleBar.border": "#0D0D0D",
     "titleBar.inactiveBackground": "#0D0D0D",
     "titleBar.inactiveForeground": "#d8dee966",
     "tree.indentGuidesStroke": "#8C8C8C",
@@ -689,7 +689,7 @@
       }
     },
     {
-      "name": "[CSS] Constant Other Color RGB Value",
+      "name": "[CSS] Constant Other dark.color RGB Value",
       "scope": "source.css constant.other.color.rgb-value",
       "settings": {
         "foreground": "#CD96B3"
