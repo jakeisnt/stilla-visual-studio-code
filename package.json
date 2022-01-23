@@ -1,8 +1,33 @@
 {
     "name": "stilla",
     "displayName": "stilla",
-    "description": "",
+    "description": "`Still`: A quiet, introverted theme that stays out of your way.",
     "version": "0.0.1",
+    "publisher": "jakeisnt",
+    "author": {
+        "name": "jakeisnt",
+        "email": "jakechvatal+stillatheme@gmail.com",
+        "url": "jake.isnt.online"
+    },
+    "homepage": "https://github.com/jakeisnt/stilla-visual-studio-code",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jakeisnt/stilla-visual-studio-code"
+    },
+    "bugs": {
+        "url": "https://github.com/jakeisnt/stilla-visual-studio-code/issues"
+    },
+    "galleryBanner": {
+        "color": "#2E3440",
+        "theme": "dark"
+    },
+    "keywords": [
+        "stilla",
+        "north",
+        "minimal",
+        "bluish",
+        "clean"
+    ],
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -17,5 +42,8 @@
                 "path": "./themes/stilla-color-theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "vsce": "^2.6.3"
     }
 }
