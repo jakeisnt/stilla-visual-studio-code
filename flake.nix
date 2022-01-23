@@ -27,7 +27,14 @@
           nodejs
           nodePackages.typescript-language-server
           nodePackages.eslint
+
+          # for publishing
+          libsecret
+          glib
+
         ];
+        VSCE_STORE="file";
+        LD_LIBRARY_PATH = "${libsecret}/lib:${glib}/lib:$LD_LIBRARY_PATH";
       };
     };
 }
